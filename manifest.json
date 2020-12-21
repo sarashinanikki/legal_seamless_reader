@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Web-novel Seamless Reader",
+    "name": "Web Novel BookMark",
     "description": "小説家になろう等で、スクロールだけでシームレスに読めるようにする拡張です",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "content_scripts": [
         {
             "matches": [
@@ -17,8 +17,8 @@
         }
     ],
     "browser_action" : {
-        "default_title" : "Seamless Reader",
-        "default_popup" : "html/popup.html",
+        "default_title" : "BookMark",
+        "default_popup" : "html/stock.html",
         "default_icon": {
             "19": "images/icon.png"
         }
