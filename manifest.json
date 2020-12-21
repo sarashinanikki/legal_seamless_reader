@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Web Novel BookMark",
-    "description": "小説家になろう等で、スクロールだけでシームレスに読めるようにする拡張です",
+    "description": "小説家になろう等で、ちょっと気になるけどブックマークに突っ込むほどではないかなー的な作品を保存できる拡張です",
     "version": "1.0.0",
     "content_scripts": [
         {
@@ -28,8 +28,5 @@
         "https://ncode.syosetu.com/*",
         "storage",
         "tabs"
-    ],
-    "web_accessible_resources": [
-        "images/checkmark.png"
     ]
 }
