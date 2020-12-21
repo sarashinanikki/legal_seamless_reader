@@ -9,6 +9,7 @@
                 "https://ncode.syosetu.com/*"
             ],
             "js": [
+                "js/jquery-3.5.1.min.js",
                 "js/content_scripts.js"
             ],
             "css": [

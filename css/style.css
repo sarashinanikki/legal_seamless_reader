@@ -1,20 +1,3 @@
-.novel_honbun {
-    margin: 30px auto 50px;
-    padding: 0 20px 0 20px;
-    width: 600px;
-}
-
-.novel_no {
-    margin: 0 10px 10px 0;
-    text-align: right;
-    color: #999999;
-    font-size: 90%;
-}
-
-.contents1 {
-    position: relative;
-}
-
 #later-button {
     position: absolute;
     outline: none;
@@ -39,28 +22,25 @@
     color: #ffffff;
 }
 
-#my-alert {
+.modal{
+    display: none;
+    height: 100vh;
     position: fixed;
-    height: 300px;
-    width: 600px;
-    background: white;
-    top:calc(50% - 300px/2);
-    left:calc(50% - 600px/2);
-    border: solid 5px #666666;
-    box-sizing: border-box;
-    border-radius: 10px;
+    top: 0;
+    width: 100%;
 }
-
-.alert-message {
-    text-align: center;
-    color: #666666;
-    margin-top: 100px;
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
 }
-
-.checkmark {
-    position: relative;
-    height: 50%;
-    width: 25%;
-    top: 40px;
-    left: 220px;
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
 }
